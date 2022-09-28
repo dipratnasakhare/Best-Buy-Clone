@@ -1,0 +1,76 @@
+.mainBox {
+  margin-top: 1rem;
+  display: flex;
+  height: 45rem;
+  width: 100%;
+  padding: 25px;
+}
+
+.textbar {
+  width: 40%;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.textbarfirst {
+  line-height: 45px;
+  margin: 20px;
+}
+
+.textbarsecond > img {
+  width: 100%;
+  height: 30rem;
+  object-fit: scale-down;
+}
+
+.productbar {
+  width: 60%;
+  padding: 0px 5px 0px 30px;
+
+}
+
+.productbarfirst {
+
+  display: flex;
+  padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin-bottom: 2rem;
+}
+
+.productbarfirst > div {
+  font-size: small;
+}
+
+.productbarfirst > div > img {
+  margin: auto;
+}
+
+.productbarsecond {
+  /* padding-left: 60px;
+  padding-right: 60px; */
+  display: flex;
+  width: 100%;
+
+ 
+}
+
+   
+
+
+
+.productbarsecond2 {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 30px;
+
+
+ width: 25.5rem;
+ height: 26.5rem;
+}
+
+
+.productbarsecond2 > div {
+    margin-bottom: 15px;
+}
+
