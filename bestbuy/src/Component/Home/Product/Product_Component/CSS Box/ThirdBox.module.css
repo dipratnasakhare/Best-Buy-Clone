@@ -1,7 +1,64 @@
+.boxadvirtise {
+  background-image: url("https://pisces.bbystatic.com/image2/BestBuy_US/dam/gl62892-tt-skinny-bg-lg-4ed9a87a-ca73-4e7a-8610-0f2159f2239b.jpg");
+  height: 9.6rem;
+  width: 98%;
 
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  clip: rect(0px, 222px, 0px, 12px);
+  display: flex;
+}
 
-.box{
-    border: 1px solid rgb(0, 255, 42);
-    height: 20rem;
-    background-color: rgb(255, 0, 251);
+.boxadvirtisefirst {
+  margin: auto;
+  margin-top: 2.8rem;
+  margin-left: 3rem;
+  border-right: 2px solid;
+  border-color: rgb(244, 244, 244);
+  height: 5.8rem;
+}
+.boxadvirtisefirst > div {
+  margin: auto;
+}
+
+.boxadvirtisefirst > div:nth-child(1) > img {
+  width: 30%;
+  align-items: center;
+  margin: auto;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.boxadvirtisescond {
+  color: white;
+  margin: auto;
+  margin-left: -20rem;
+}
+
+.box {
+  margin-top: 3rem;
+  height: 30rem;
+  display: flex;
+}
+.box > div {
+  width: 30%;
+  margin: auto;
+}
+.boxfirst {
+  border: 1px solid;
+  padding: 3rem;
+}
+
+.boxfirsttext > div {
+  margin-bottom: 6px;
+}
+.box > div > div:nth-child(3) > img {
+  width: 100%;
+}
+
+.boxfirst1{
+ padding-top: 27.9rem;
+ border-top: 1px solid;
+ border-style: double;
 }

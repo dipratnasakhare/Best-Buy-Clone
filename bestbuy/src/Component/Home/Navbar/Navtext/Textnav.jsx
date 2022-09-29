@@ -8,7 +8,7 @@ let MenuData = ["Account", "Recently Viewed", "Order Status", "Saved Items"];
 export default function Textnav() {
   return (
     <Flex
-      bg="blue.00"
+      bg="#0046be"
       h={120}
       //   alignItems="center"
       gap="2"

@@ -6,6 +6,9 @@ import ForthBox from "./Product_Component/ForthBox";
 import FifthBox from "./Product_Component/FifthBox"
 import SixBox from "./Product_Component/Sixbox"
 import SevenBox from "./Product_Component/SevenBox"
+import EightBox from "./Product_Component/EightBox"
+import NineBox from "./Product_Component/NineBox"
+import TenBox from "./Product_Component/TenBox"
 export default function Product() {
   return (
 
@@ -13,7 +16,7 @@ export default function Product() {
       className="product"
       style={{
         marginTop: "1rem",
-        height:"800rem"
+       
       }}
     >
       <FirstBox/>
@@ -29,6 +32,12 @@ export default function Product() {
       <SixBox/>
 
       <SevenBox/>
+
+      <EightBox/>
+
+      <NineBox/>
+
+      <TenBox/>
       
     </Box>
   );

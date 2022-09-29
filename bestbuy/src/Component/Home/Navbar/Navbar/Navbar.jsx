@@ -60,7 +60,7 @@ function Navbar() {
   return (
     <>
       <Flex
-        bg="blue.00"
+        bg="#0046be"
         h={75}
         alignItems="center"
         gap={55}

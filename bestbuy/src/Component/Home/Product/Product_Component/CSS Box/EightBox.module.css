@@ -1,0 +1,50 @@
+
+
+.Boxbar{
+    display: flex;
+
+}
+.Boxbar > div {
+    padding: 10px;
+    margin: 0px 20px 0px 20px;
+}
+
+.Boxbar > div:nth-child(odd) {
+    border: 1px solid rgb(232, 218, 218);
+    background-color: rgb(232, 238, 244);
+}
+
+.Boxbar > div:nth-child(even) {
+    border: 0.1px solid rgb(232, 223, 223);
+    background-color: rgb(254, 254, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.barBox {
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+   width:100%;
+}
+
+.barBox > div {
+    padding: 10px;
+}
+.barBox img{
+    border-radius: 5px;
+}

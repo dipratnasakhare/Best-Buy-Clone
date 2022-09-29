@@ -1,6 +1,49 @@
+.box {
+  height: 25rem;
 
+  background-image: url("https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-76210-iac-apple-080122-f9cbe257-b0da-4003-ab9a-57cfe6faedaa.jpg");
+  margin: 0px 10px 0px 10px;
+  padding: 3px;
+  display: flex;
+}
+.box > div:nth-child(1){
+    width: 25rem;
+}
 
-.box{
-    height: 15rem;
-    background-color: rgb(236, 69, 9);
+.boxFlex {
+  width: 70%;
+  display: flex;
+}
+
+.boxFlex > div {
+
+  width: 50%;
+  margin: auto;
+  height: 20rem;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.boxFlex div {
+  margin: auto;
+  width: 100%;
+}
+
+.boxFlex > div {
+  width: 75%;
+  margin: 2rem 10px 0px 10px;
+  padding-top: 10px;
+}
+
+.boxText {
+  margin: 50px;
+  padding: 1.5rem;
+}
+
+.boximg > img {
+  margin: auto;
+  height: 7rem;
+
+ 
+
 }
