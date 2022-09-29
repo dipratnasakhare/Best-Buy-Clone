@@ -1,0 +1,29 @@
+
+
+.box{
+  
+    background-color: #0046be;
+    height: 10rem;
+    width: 95%;
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+}
+
+.box > div {
+
+    width: 30%;
+    margin: auto;
+    
+}
+
+.box > div:nth-child(1) img{
+    width: 40%;
+    margin: auto;
+    margin-right: 0px;
+}
+.box > div:nth-child(4){
+    margin-right: 0px;
+  
+    margin-left: -120px;
+}

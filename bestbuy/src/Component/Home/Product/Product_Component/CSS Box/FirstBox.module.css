@@ -1,15 +1,17 @@
 .mainBox {
-  margin-top: 1rem;
+margin-top: -15px;
   display: flex;
   height: 45rem;
   width: 100%;
   padding: 25px;
+  background-color: #c5cbd5;
 }
 
 .textbar {
   width: 40%;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: white;
 }
 
 .textbarfirst {
@@ -26,6 +28,8 @@
 .productbar {
   width: 60%;
   padding: 0px 5px 0px 30px;
+ 
+
 
 }
 
@@ -36,6 +40,7 @@
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   margin-bottom: 2rem;
+  background-color: white;
 }
 
 .productbarfirst > div {
@@ -47,8 +52,6 @@
 }
 
 .productbarsecond {
-  /* padding-left: 60px;
-  padding-right: 60px; */
   display: flex;
   width: 100%;
 
@@ -64,13 +67,15 @@
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   padding: 30px;
 
-
+background-color: white;
  width: 25.5rem;
  height: 26.5rem;
+
 }
 
 
 .productbarsecond2 > div {
     margin-bottom: 15px;
+    
 }
 

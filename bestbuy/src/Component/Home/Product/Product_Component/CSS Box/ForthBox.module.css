@@ -1,7 +1,32 @@
+.boxview {
+    margin-top: 5rem;
+    height: 35rem;
+    display: flex;
+    margin: auto;
+    width: 100%;
 
-
-.products{
-    height: 15rem;
-    background-color: aquamarine;
-
-}
+  }
+  
+  .boxview div {
+    margin: auto;
+    width: 63%;
+  }
+  
+  .boxview > div {
+    width: 75%;
+    height: 60%;
+  }
+  
+  .boxText {
+    margin: 50px;
+    margin-top: 1rem;
+    padding: 1.5rem;
+  }
+  
+  .boximg > img {
+    /* width: 100%; */
+    margin: auto;
+    height: 6rem;
+   
+  }
+  

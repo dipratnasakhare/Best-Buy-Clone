@@ -1,6 +1,84 @@
+.boxview {
+    height: 35rem;
+    display: flex;
+    margin: auto;
+    width: 100%;
+
+    
+  }
+  
+  .boxview div {
+    margin: auto;
+    width: 100%;
+   
+  }
+  
+  .boxview > div {
+    width: 100%;
+    height: 70%;
+  }
+  
+  .boxText {
+    margin: 50px;
+    margin-top: 1rem;
+    padding: 1.5rem;
+  }
+  
+  .boximg > img {
+    margin: auto;
+    height: 17rem;
+  }
 
 
-.box{
-    height: 20rem;
-    background-color: chartreuse;
-}
+  .boxview > div:nth-child(2){
+   border-right: 1px solid;
+   border-left: 1px solid;
+   border-color: rgb(192, 226, 255);
+  }
+  
+  .docterbox{
+    display: flex;
+
+ 
+  }
+
+  .docterbox > div{
+    margin: auto;
+    height: 9rem;
+    background-color: #f0f2f4;
+    display: flex;
+    padding: 20px 45px 20px 45px;
+    margin-bottom: 5rem;
+    border: 1px solid;
+  }
+  .docterinsorance{
+    display: flex;
+
+    
+  }
+
+  .docterinsorance > div{
+    margin: auto;
+    height: 8rem;
+    display: flex;
+    padding: 20px 45px 20px 45px;
+    margin-bottom: 5rem;
+    
+    
+  }
+  .docterinsorance > div > div:nth-child(1) > img{
+    width: 90%;
+  
+  }
+
+  .docterinsorance > div > div:nth-child(2){
+    width: 100%;
+    padding-top: 4px;
+  }
+
+  .docterinsorance >  div:nth-child(2){
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: #b6cfe9;
+
+  }

@@ -1,0 +1,16 @@
+
+
+.box{
+   
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+.box > div{
+    width: 33%;
+}
+.box > div > img{
+    width: 30%;
+    margin: auto;
+    margin-bottom: 10px;
+}

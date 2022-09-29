@@ -1,8 +1,7 @@
 import { Button,Box, Text, Heading, Image, Divider} from "@chakra-ui/react";
-import {ChevronRightIcon ,ChevronLeftIcon}from "@chakra-ui/icons" 
 
 
-import ViewStyle from "./CSS Box/SixBox.module.css"
+import ViewStyle from "./CSS Box/TenBox.module.css"
 
 
 export default function ViewPage(){
@@ -54,11 +53,11 @@ export default function ViewPage(){
       ];
     return(
 
-        <Box>
+        <Box mt="5rem">
         <Box>
          
-          <Heading borderBottom="2px" width="13rem" ml="8px" as="h3" size="lg"  >
-            New Arrivals
+          <Heading borderBottom="2px" width="16rem" ml="8px" as="h3" size="lg"  >
+           Futurd Porduct
           </Heading>
      
         </Box>
