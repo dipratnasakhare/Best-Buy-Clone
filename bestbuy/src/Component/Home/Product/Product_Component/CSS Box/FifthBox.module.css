@@ -82,3 +82,15 @@
     border-color: #b6cfe9;
 
   }
+
+  .docterinsorance > div p:hover{
+    text-decoration: underline;
+  }
+
+  .docterbox > div p:hover{
+    text-decoration: underline;
+  }
+
+  .lastteaxt:hover {
+    text-decoration: underline;
+  }

@@ -43,12 +43,12 @@ export default function Offers() {
   return (
     <Box mt="5rem">
       <Box>
-        <Heading width="18rem" ml="8px" as="h3" size="lg">
+        <Heading borderBottom="2px" width="17rem" ml="8px" as="h3" size="lg">
           our Featured offer
         </Heading>
       </Box>
 
-      <Divider border="2px" />
+      <Divider border="2px" style={{opacity:"100%"}}/>
 
       <Box className={ViewStyle.boxview}>
         {inspired.map((ele) => {
@@ -58,11 +58,11 @@ export default function Offers() {
                 <Image src={ele.img} alt="product" />
               </Box>
               <Box className={ViewStyle.boxText}>
-                <Heading color="blue" as="h4" size="md">
+                <Heading color="blue" as="h4" size="md" className={ViewStyle.lastteaxt}>
                   {ele.heading}
                 </Heading>
               </Box>
-              <Box>
+              <Box >
                 <Text>{ele.text}</Text>
               </Box>
             </Box>
@@ -91,7 +91,7 @@ export default function Offers() {
             <Text>
               Satisfy your cravings with CRUX appliances and accessories.
             </Text>
-            <Text color="blue">Shop with an Expert</Text>
+            <Text  color="blue">Shop with an Expert</Text>
           </div>
         </Box>
       </Box>

@@ -116,7 +116,7 @@ export default function FirstBox() {
               <Button _hover="none" color="white" bg="red" position="absulute">
                 Deal{" "}
               </Button>{" "}
-              <Button _hover="none" bg="none">
+              <Button _hover="none" bg="none" pos="s">
                 of the day
               </Button>
             </Box>

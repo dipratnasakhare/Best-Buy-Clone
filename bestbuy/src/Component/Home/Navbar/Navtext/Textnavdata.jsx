@@ -4,10 +4,11 @@ import { ChevronDownIcon } from "@chakra-ui/icons";
 
 export default function MenuButon(menu){
     return(
-        <Box>
-        <Menu>
-          <MenuButton position="relative">
-           {menu} <ChevronDownIcon />
+        <Box >
+        <Menu position="s" >
+          <MenuButton position="s">
+            
+           {menu}<ChevronDownIcon />
           </MenuButton>
           <MenuList color="black" position="relative">
             <MenuItem>Download</MenuItem>

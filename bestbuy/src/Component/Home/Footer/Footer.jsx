@@ -3,9 +3,9 @@ import SecF from "./Component/SecF"
 import { Divider , Text } from "@chakra-ui/react"
 function Footer() {
     return (
-      <div  style={{border:"3px solid green",backgroundColor:"#f0f2f4", height:"150rem"}}>
+      <div  style={{backgroundColor:"#f0f2f4",paddingTop:"5px",paddingBottom:"5rem"}}>
        <FirstF/>
-       <Divider/>
+       <Divider style={{opacity:"100%"}}/>
        <SecF/>
       </div>
     );

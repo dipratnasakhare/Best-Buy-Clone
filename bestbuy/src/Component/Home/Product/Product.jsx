@@ -16,7 +16,7 @@ export default function Product() {
       className="product"
       style={{
         marginTop: "1rem",
-       
+        width:"auto"
       }}
     >
       <FirstBox/>

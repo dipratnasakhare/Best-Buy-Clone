@@ -1,4 +1,4 @@
-import {Box,MenuDivider, Text, MenuItem } from "@chakra-ui/react";
+import {Box,Spacer,MenuDivider, Text, MenuItem } from "@chakra-ui/react";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 
 export default function MenuListdata(menu){
@@ -9,6 +9,7 @@ export default function MenuListdata(menu){
           <Box>
             <Text>{menu}</Text>
           </Box>
+          <Spacer />
           <ChevronRightIcon />
         </MenuItem>
     

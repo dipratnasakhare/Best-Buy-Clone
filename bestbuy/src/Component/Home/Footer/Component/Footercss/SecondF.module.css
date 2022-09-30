@@ -1,0 +1,16 @@
+
+
+.box{
+    width: 95%;
+   margin: auto;
+    height: 35rem;
+    margin-top: 3rem;
+    display: flex;
+}
+.box > div:nth-child(1){
+    width: 70%;
+}
+.box > div:nth-child(2){
+    width: 30%;
+    margin: auto;
+}
