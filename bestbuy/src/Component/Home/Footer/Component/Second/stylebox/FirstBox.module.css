@@ -1,0 +1,19 @@
+
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+ 
+   margin-top: 2rem;
+}
+
+.box > div  p {
+text-align: left;
+margin-bottom: 8px;
+    
+}
+
+.box > div > div p:hover{
+    text-decoration: underline;
+   
+}

@@ -14,3 +14,9 @@
     margin: auto;
     margin-bottom: 10px;
 }
+.box > div > p{
+   color: blue;
+}
+.box > div > p:hover{
+    text-decoration: underline;
+}

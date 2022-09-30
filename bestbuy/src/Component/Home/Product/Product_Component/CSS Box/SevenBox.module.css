@@ -1,5 +1,5 @@
 .box {
-  height: 25rem;
+  height: 29rem;
 
   background-image: url("https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-76210-iac-apple-080122-f9cbe257-b0da-4003-ab9a-57cfe6faedaa.jpg");
   margin: 0px 10px 0px 10px;
@@ -19,7 +19,7 @@
 
   width: 50%;
   margin: auto;
-  height: 20rem;
+  height: 26rem;
   background-color: white;
   border-radius: 5px;
 }
@@ -27,23 +27,111 @@
 .boxFlex div {
   margin: auto;
   width: 100%;
+
 }
 
 .boxFlex > div {
-  width: 75%;
+  width: 100%;
   margin: 2rem 10px 0px 10px;
   padding-top: 10px;
+
+  background-color: #0046be;
+
 }
 
-.boxText {
-  margin: 50px;
-  padding: 1.5rem;
+.boxFlex > div{
+  border: 2px sold red;
 }
 
-.boximg > img {
-  margin: auto;
-  height: 7rem;
+
+.boxText > p {
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.inner{
+  display: flex;
+  padding: 10px;
+  height: 21rem;
+  width: auto;
 
  
+}
+
+.carousel{
+  cursor: grab;
+  overflow: hidden;
+}
+
+
+.inner > div {
+ 
+  min-width: 15rem;
+  height: 20rem;
+  margin: auto;
+  margin-left:10px;
+  margin-right: 10px;
+
+
+
+}
+
+.inner > div {
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.inner > div  img{
+  height: 8rem;
+  margin: auto;
+  pointer-events: none;
+  
+
+  
+}
+
+.price{
+  text-decoration: line-through;
+
+}
+
+.boxText{
+ 
+  margin-top: 5px;
+  
+}
+
+.boxText > p{
+  text-align: left;
+  padding-bottom: 2px;
 
 }

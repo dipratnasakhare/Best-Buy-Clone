@@ -37,7 +37,7 @@ export default function ViewPage() {
    
       </Box>
 
-      <Divider border="2px" />
+      <Divider possition={'absolute'} style={{opacity:"100%"}} />
  
       <Box className={ViewStyle.boxview}>
        

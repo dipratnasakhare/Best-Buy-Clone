@@ -1,50 +1,39 @@
-
-
-.Boxbar{
-    display: flex;
-
+.Boxbar {
+  display: flex;
 }
+
+.Boxbar > div > div > div > img {
+  margin-bottom: 8px;
+}
+
 .Boxbar > div {
-    padding: 10px;
-    margin: 0px 20px 0px 20px;
+  padding: 10px;
+  margin: 0px 20px 0px 20px;
+}
+
+.Boxbar > div > div p:hover {
+  text-decoration: underline;
 }
 
 .Boxbar > div:nth-child(odd) {
-    border: 1px solid rgb(232, 218, 218);
-    background-color: rgb(232, 238, 244);
+  border: 1px solid rgb(232, 218, 218);
+  background-color: rgb(232, 238, 244);
 }
 
 .Boxbar > div:nth-child(even) {
-    border: 0.1px solid rgb(232, 223, 223);
-    background-color: rgb(254, 254, 255);
+  border: 0.1px solid rgb(232, 223, 223);
+  background-color: rgb(254, 254, 255);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .barBox {
-    display: grid;
-   grid-template-columns: repeat(2,1fr);
-   width:100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
 }
 
 .barBox > div {
-    padding: 10px;
+  padding: 10px;
 }
-.barBox img{
-    border-radius: 5px;
+.barBox img {
+  border-radius: 5px;
 }

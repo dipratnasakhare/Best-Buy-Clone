@@ -41,7 +41,7 @@ export default function () {
               <Text fontSize="xs">Minimum savings is $50.</Text>
             </Box>
             <Box>
-              <Button _hover="none" color="white" bg="blue">
+              <Button position="s" _hover="none" color="white" bg="blue">
                 Shop Now
               </Button>
             </Box>
