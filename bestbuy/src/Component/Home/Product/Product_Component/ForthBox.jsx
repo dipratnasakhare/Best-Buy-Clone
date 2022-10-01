@@ -9,7 +9,7 @@ export default function ViewPage(){
    
     return(
 
-        <Box>
+        <Box mt="3rem">
         <Box>
          
           <Heading borderBottom="2px" width="30rem" ml="8px" as="h3" size="lg"  >

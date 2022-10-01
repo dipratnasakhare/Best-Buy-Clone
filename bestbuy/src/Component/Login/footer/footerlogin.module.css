@@ -1,0 +1,22 @@
+.main{
+    padding: 1rem;
+}
+
+.box{
+    width: 80%;
+    margin: auto;
+}
+.box > div {
+    padding-bottom: 8px;
+}
+.box > div:nth-child(1){
+   display: flex;
+}
+
+
+
+.box > div:nth-child(2){
+    display: flex;
+    color: blue;
+ }
+ 

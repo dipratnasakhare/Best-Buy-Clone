@@ -1,0 +1,113 @@
+
+
+
+.navbar{
+    height: 4.6rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+.backgroundgray{
+background-color: #d0d7df;
+padding-top: 3rem;
+padding-bottom: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+.login{
+    border: 1px solid ;
+    width: 30%;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+    
+}
+
+
+
+.input > div {
+    margin-top: 13px;
+    border: 3px;
+   
+}
+
+.input > div:nth-child(2){
+    display: flex;
+    justify-content: right;
+}
+
+
+
+.change{  
+    padding-left: 3px;
+}
+
+.input > div:nth-child(5) > button {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+
+
+.authbox > div {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+
+.authbox > div:nth-child(odd) {
+   border: 1px solid blue;
+   padding: 5px;
+   border-radius: 5px;
+   color: blue;
+    font-weight: bold;
+}
+.authbox > div:nth-child(even) {
+   border: 1px solid ;
+   padding: 5px;
+   border-radius: 5px;
+   font-weight: bold;
+}
+
+
+
+
+.authbox > div > div:nth-child(1){
+    width: 10%;
+    margin: auto;
+    margin-right: 10px;
+    
+}
+.authbox > div > div:nth-child(2){
+    margin: auto;
+    margin-left: 0px;
+    
+}
+.authbox > div > div:nth-child(1)  img{
+
+    width: 90%;
+}
+
+.textblue > p > p:hover {
+    text-decoration: underline;
+}
+
+.textblue1 >  p:hover {
+    text-decoration: underline;
+}

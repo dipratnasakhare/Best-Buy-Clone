@@ -56,12 +56,14 @@ export default function slider() {
     },
   ];
   return (
-    <div className={ViewStyle.boxview}>
+    <div className={ViewStyle.boxview} >
       <motion.div className={ViewStyle.carousel}>
         <motion.div
           drag="x"
           dragConstraints={{ right: 0, left: -308 }}
           className={ViewStyle.inner}
+
+          pos="absolute"
         >
         {inspired.map((ele) => {
           return(
