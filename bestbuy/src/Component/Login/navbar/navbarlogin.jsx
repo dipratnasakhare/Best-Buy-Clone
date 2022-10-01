@@ -1,5 +1,4 @@
-import NavbarText from "../NavbarText";
-import NavListdata from "./NavbarMenu";
+
 import {
   Flex,
   Box,
@@ -13,31 +12,18 @@ import {
 
 // menu section
 
-import { Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/react";
 
-import { HamburgerIcon, SearchIcon, CloseIcon } from "@chakra-ui/icons";
+import {  SearchIcon } from "@chakra-ui/icons";
 
-let ListMenu1 = ["Deals", "Support & Services", "Brand", "Featured"];
+import {NavLink} from "react-router-dom"
 
-let ListMenu2 = [
-  "Appliances",
-  "TV & Home Theater",
-  "Computer & Tablets",
-  "Cameras, Camcorders & Drones",
-  "Audio",
-  "Video Games",
-  "Movies & Music",
-  "Car Electronics & GPS",
-  "Sports, Fitness & Recreation",
-];
-
-function Navbar() {
+function NavbarLogin() {
   return (
     <>
       <Flex
         bg="#0046be"
         bgOpacity="25%"
-        h={79}
+        h={90}
         alignItems="center"
         gap={55}
         color="white"
@@ -50,41 +36,17 @@ function Navbar() {
       >
         {/* logo of website */}
         {/* <Box bg="white" boxSize="sm" w={3}> */}
-        <Image
+        <NavLink to="/"><Image
           w={20}
           src="https://cdn.iconscout.com/icon/free/png-256/best-27-226587.png"
           alt="Dan Abramov"
-        />
+        /></NavLink>
 
         {/* </Box> */}
 
         {/* manu serction  */}
 
-        <Menu>
-          <MenuButton
-            _hover="none"
-            w={50}
-            bg="none"
-            as={Button}
-            leftIcon={<HamburgerIcon />}
-            size="lg"
-          >
-            <Box>Menu</Box>
-          </MenuButton>
-
-          <MenuList h={700} color="black" overflow="scroll" pl="1rem" pr="1rem">
-            {ListMenu1.map((ele) => {
-              return NavListdata(ele);
-            })}
-
-            <Heading bordertop="1px solid">Shop by Department</Heading>
-
-            {ListMenu2.map((ele) => {
-              return NavListdata(ele);
-            })}
-          </MenuList>
-        </Menu>
-
+      
         
         {/* search section  */}
 
@@ -124,13 +86,11 @@ function Navbar() {
               Cart
             </Button>
           </Box>
-          <NavbarText />
         </ButtonGroup>
       </Flex>
 
-      {/* <NavbarText/> */}
     </>
   );
 }
 
-export default Navbar;
+export default NavbarLogin;

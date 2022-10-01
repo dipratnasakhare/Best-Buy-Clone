@@ -57,6 +57,6 @@
 
  }
 
- .boxText > p:hover{
+ .boxText > p:nth-child(1):hover{
    text-decoration: underline;
 }

@@ -46,7 +46,17 @@
 
 .boxText > p {
   margin-bottom: 5px;
+  
 }
+.boxText > p:nth-child(1) {
+margin-top: 4px;}
+
+
+.boxText > p:nth-child(1):hover {
+  text-decoration: underline;
+}
+
+
 
 
 
