@@ -16,6 +16,28 @@ explaing video
 project details :- Home page with json mock server data navbar footer with page is responsive
 
 
+
+
+
+ ### `wesite details`
+  of bestbuy where you can find electronics product 
+
+Best Buy Co. Inc. is an American multinational consumer electronics retailer headquartered in Richfield, Minnesota.
+Originally founded by Richard M. Schulze and James Wheeler in 1966 as an audio specialty store called Sound of
+Music, it was rebranded under its current name with an emphasis on consumer electronics in 1983.
+
+real website https://www.bestbuy.com/
+
+
+
+
+
+
+
+
+
+
+
 In the project directory, you can run:
 
 ### `npm start`
@@ -52,10 +74,3 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 
 
- wesite details of bestbuy where you can find electronics product 
-
-Best Buy Co. Inc. is an American multinational consumer electronics retailer headquartered in Richfield, Minnesota.
-Originally founded by Richard M. Schulze and James Wheeler in 1966 as an audio specialty store called Sound of
-Music, it was rebranded under its current name with an emphasis on consumer electronics in 1983.
-
-real website https://www.bestbuy.com/
