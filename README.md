@@ -13,7 +13,8 @@ explaing video
 
 
 
-project details :- Home page with json mock server data navbar footer with page is responsive
+### `project details`
+Home page with json mock server data navbar footer with page is responsive
 
 
 
