@@ -4,6 +4,15 @@ React project
 
 hellow every one to my github
 
+clone :- https://y-dipratnasakhare.vercel.app/
+
+explaing video 
+
+
+
+
+
+
 project details :- Home page with json mock server data navbar footer with page is responsive
 
 
