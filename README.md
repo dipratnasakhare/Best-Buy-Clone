@@ -70,6 +70,29 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 
 
+### `screen shots of clone website`
+
+### Home 
+
+![image](https://raw.githubusercontent.com/dipratnasakhare/test/main/ScreenShot/BestBuy/Screenshot%20(698).png)
+
+
+![image](https://raw.githubusercontent.com/dipratnasakhare/test/main/ScreenShot/BestBuy/Screenshot%20(699).png)
+
+
+![image](https://raw.githubusercontent.com/dipratnasakhare/test/main/ScreenShot/BestBuy/Screenshot%20(700).png)
+
+
+### footer
+
+![image](https://raw.githubusercontent.com/dipratnasakhare/test/main/ScreenShot/BestBuy/Screenshot%20(703).png)
+
+
+
+
+![image](https://raw.githubusercontent.com/dipratnasakhare/test/main/ScreenShot/DearmStore/Screenshot%20(696).png)
+
+
 
 
 
