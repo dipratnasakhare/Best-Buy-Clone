@@ -90,8 +90,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 
 
-![image](https://raw.githubusercontent.com/dipratnasakhare/test/main/ScreenShot/DearmStore/Screenshot%20(696).png)
-
 
 
 
